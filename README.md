@@ -1,6 +1,6 @@
 # react_redux_aws_cognito
 
-Basic usage of amazon-cognito-identity with modern javascript tooling, react, and the npm ecosystem.
+Basic usage of amazon-cognito-identity with, React, React Router v4, Redux and the npm ecosystem.
 You can use it as a boilerplate for your next kickass AWS-based ES6 serverless react/redux site.
 
 ## Getting Started
@@ -16,4 +16,3 @@ You can use it as a boilerplate for your next kickass AWS-based ES6 serverless r
 2. Add your AWS credentials into the settings file located /src/config/settings.js
 3. Install all the dependencies with `npm install`
 4. Run the app with `npm start`, and click the links.
-5. Once you get your app working the way you want, run `npm run build` and deploy the `webroot/` folder on any static webhost (like S3 or whatever.)
