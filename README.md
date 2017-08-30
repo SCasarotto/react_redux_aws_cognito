@@ -1,4 +1,3 @@
-FC From Scratch AWS# react_redux_aws_cognito
 # react_redux_aws_cognito
 
 Basic usage of amazon-cognito-identity with modern javascript tooling, react, and the npm ecosystem.
