@@ -8,7 +8,7 @@ import settings from './../config/settings';
 export const signInUser = ({email, password, redirect}) => {
 	const { 
 		SIGN_IN_USER_SUCCESS,
-		SIGN_IN_USER_FAIL,
+		//SIGN_IN_USER_FAIL,
 	} = AuthKeys;
 
 	return (dispatch) => {
@@ -35,7 +35,7 @@ export const signInUser = ({email, password, redirect}) => {
 
 				dispatch(push(redirect))
 				dispatch({
-					type 	: AuthKeys.SIGN_IN_USER_SUCCESS,
+					type 	: SIGN_IN_USER_SUCCESS,
 					payload : cognitoUser
 				});
 	        },
@@ -59,10 +59,12 @@ export const signOutUser = () => {
 }
 
 export const registerUser = ({email, password}) => {
+	/*
 	const { 
 		REGISTER_USER_SUCCESS,
 		REGISTER_USER_FAIL
 	} = AuthKeys;
+	*/
 
 	return (dispatch) => {
 	    var poolData = {
@@ -87,6 +89,7 @@ export const registerUser = ({email, password}) => {
 	            alert(err);
 	            return;
 	        }
+
 	        console.log(result.user)
 	        console.log('user name is ' + result.user.getUsername());
 	    });
@@ -94,11 +97,13 @@ export const registerUser = ({email, password}) => {
 }
 
 export const verifyUser = ({email, code}) => {
-	const { 
+	/*
+	const {
 		VERIFY_USER_SUCCESS,
 		VERIFY_USER_FAIL
 	} = AuthKeys;
-
+	*/
+	
 	return (dispatch) => {
 	    var poolData = {
 	    	UserPoolId : settings.UserPoolId, 

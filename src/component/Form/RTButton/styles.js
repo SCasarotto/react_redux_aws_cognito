@@ -13,7 +13,7 @@ export default {
 		cursor			: 'pointer',
 
 		':hover' : {
-			color : 'white',
+			color : colors.white,
 			backgroundColor : '#1573AB'
 		}
 	}

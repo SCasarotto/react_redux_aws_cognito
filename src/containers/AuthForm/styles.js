@@ -15,19 +15,19 @@ export default {
 		position		: 'relative',
 		display			: 'inline-block',
 		padding			: '5px 20px',
-		backgroundColor	: 'white',
+		backgroundColor	: colors.white,
 		color 			: '#1573AB',
 		border			: '1px solid #1573AB',
 		transition		: 'color 0.2s ease-in, background-color 0.2 ease-in',
 		cursor			: 'pointer',
 
 		':hover' : {
-			color : 'white',
+			color : colors.white,
 			backgroundColor : '#1573AB'
 		}
 	},
 	activeFormButton : {
-		color : 'white',
+		color : colors.white,
 		backgroundColor : '#1573AB'
 	}
 }

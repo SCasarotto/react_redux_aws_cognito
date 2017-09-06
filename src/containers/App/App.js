@@ -3,7 +3,6 @@ import {
     Route,
     Link,
 } from 'react-router-dom';
-import firebase from 'firebase';
 
 import { createStore, applyMiddleware } from 'redux';
 import { Provider } from 'react-redux';
@@ -12,8 +11,6 @@ import { ConnectedRouter, routerMiddleware } from 'react-router-redux';
 import ReduxThunk from 'redux-thunk';
 
 import reducers from './../../reducers';
-
-import settings from './../../config/settings';
 
 import PrivateRoute from './../PrivateRoute';
 import AuthForm from './../AuthForm';

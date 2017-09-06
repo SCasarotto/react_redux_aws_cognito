@@ -23,8 +23,8 @@ export const AuthKeys = {
 	REGISTER_USER_SUCCESS				: 'auth__register_user_success',
 	REGISTER_USER_FAIL					: 'auth__register_user_fail',
 
-	VERIFY_EMAIL_CHANGED 				: 'auth__verify_email_success',
-	VERIFY_CODE_CHANGED 				: 'auth__verify_code_success',
+	VERIFY_USER_SUCCESS					: 'auth__verify_user_success',
+	VERIFY_USER_FAIL 					: 'auth__verify_user_fail',
 
 	SEND_FORGOT_PASSWORD_EMAIL_SUCCESS	: 'auth__send_forgot_password_email_success',
 	SEND_FORGOT_PASSWORD_EMAIL_FAIL		: 'auth__send_forgot_password_email_fail',	

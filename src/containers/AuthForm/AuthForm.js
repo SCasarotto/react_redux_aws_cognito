@@ -7,7 +7,6 @@ import { } from './../../actions';
 
 import SignIn from './../SignIn';
 import Register from './../Register';
-import ForgotPassword from './../ForgotPassword';
 import VerifyAccount from './../VerifyAccount';
 
 
